@@ -1,8 +1,4 @@
-/*
- * Copyright 2013 The UTFoodPortalSE Project. Zhuhai Unitech Power Technology Co.,Ltd. All Rights Reserved.
- */
-
-package cn.mynacche.regexp;
+﻿package cn.mynacche.regexp;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

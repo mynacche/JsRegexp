@@ -1,7 +1,3 @@
-/*
- * Copyright 2013 The UTFoodPortalSE Project. Zhuhai Unitech Power Technology Co.,Ltd. All Rights Reserved.
- */
-
 package cn.mynacche.regexp;
 
 /**
