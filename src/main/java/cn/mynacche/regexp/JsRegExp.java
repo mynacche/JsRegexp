@@ -1,19 +1,26 @@
-﻿package cn.mynacche.regexp;
+package cn.mynacche.regexp;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
+ * Class JsRegExp
+ * 
  * @author mynacche
  * @date 2013-9-16
  */
 public class JsRegExp {
 
+	/**
+	 * 替换第一个匹配项
+	 */
 	public static String replaceFirst(String target, String regexp, String replacement) {
 
 		return Pattern.compile(regexp).matcher(target).replaceFirst(replacement);
 	}
-
+	/**
+	 * 替换第一个匹配项
+	 */
 	public static String replaceFirst(String target, String regexp, Rpl replacement) {
 
 		Matcher m = Pattern.compile(regexp).matcher(target);
@@ -55,7 +62,9 @@ public class JsRegExp {
 
 		return sb.toString();
 	}
-	
+	/**
+	 * 替换最后一个匹配项
+	 */
 	public static String replaceLast(String target, String regexp, Rpl replacement) {
 
 		Matcher m = Pattern.compile(regexp).matcher(target);
@@ -81,12 +90,16 @@ public class JsRegExp {
 
 		return sb.toString();
 	}
-
+	/**
+	 * 替换所有匹配项
+	 */
 	public static String replaceAll(String target, String regexp, String replacement) {
 
 		return Pattern.compile(regexp).matcher(target).replaceAll(replacement);
 	}
-
+	/**
+	 * 替换所有匹配项
+	 */
 	public static String replaceAll(String target, String regexp, Rpl replacement) {
 
 		Matcher m = Pattern.compile(regexp).matcher(target);
