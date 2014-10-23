@@ -6,5 +6,8 @@ package cn.mynacche.regexp;
  */
 public interface Rpl {
 
+	/**
+	 * 回调方法
+	 */
 	public String fn(String... $);
 }
